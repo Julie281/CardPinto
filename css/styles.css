@@ -1,0 +1,94 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.container {
+    width: 300px;
+    box-shadow: 0 10px 20px #5c1301;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+    font-family: 'Abel', sans-serif;
+}
+
+.image {
+    height: 150px;
+    width: 150px;
+    background-image: url('../img/pinto.jpeg');
+    background-size: cover;
+    border-radius: 50%;
+    border: 8px solid white;
+    position: relative;
+    top: 170px;
+    margin-left: 150px;
+    box-shadow: 0 2px 15px #5c1301;
+    transform: rotate(-20deg);
+}
+
+.shape {
+    height: 250px;
+    width: 400px;
+    background-color: #5c1301;
+    margin-left: -20px;
+    position: relative;
+    top: -80px;
+    box-shadow: 0 2px 15px #5c1301;
+    transform: rotate(25deg);
+}
+
+h3 {
+    color: #640f00;
+    margin-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.title {
+    color: #360800;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    padding-left: 30px;
+    padding-right: 30px;
+    color: #360800;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.icons {
+    margin-top: 15px;
+}
+
+.icons i {
+    margin-left: 10px;
+    font-size: 20px;
+    transition: 0.3s;
+    color: #360800;
+    padding: 2px;
+}
+
+.icons i:hover {
+    transform: scale(1.1);
+    color: #360800;
+}
+
+.icon-gus {
+  margin-top: 15px;
+ 
+}
+.img img{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 100px;
+}
